@@ -1,0 +1,206 @@
+body{
+    background-color: #b4b4b4;
+    }
+
+/* AddTodo.jsx */
+.input-title{
+    width: 200px;
+    height: 38px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    }
+
+.input-description{
+    width: 350px;
+    height: 38px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    }
+
+/* App.js */
+.refresh{
+    margin-left: 10px;
+    }
+
+.icon-refresh {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('img/icon-refresh.svg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+.dropdown-content button {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    }
+
+.dropdown-content button:hover {
+    background-color: #f1f1f1
+    }
+
+.form-add{
+    font-style: oblique;
+    color: white;
+    margin-top:20px;
+    margin-right:10px;
+    }
+
+/* Todo.jsx */
+.emoji-did{
+    position: relative;
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    background-image: url('img/emoji-did.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.emoji-notdid{
+    position: relative;
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    background-image: url('img/emoji-notdid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.icon-did{
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url('img/icon-did.svg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.icon-cancel{
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('img/icon-cancel.svg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.icon-delete{
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('img/icon-delete.svg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.button-did{
+    background-color:LightBlue;
+    width:50px;
+    height:38px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left:17px;
+    }
+
+.button-did:hover {
+    background-color: #f1f1f1
+    }
+
+.button-delete{
+    background-color:DarkGrey;
+    width:50px;
+    height:38px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left:6px;
+    }
+
+/* TodoList.jsx */
+.todos-notfound{
+    font-style: oblique;
+    color: white;
+    margin-top: 40px;
+}
+
+.form-search{
+    margin-top: 60px;
+    }
+
+.input-search{
+    width:200px;
+    height:38px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
